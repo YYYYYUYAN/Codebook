@@ -1,0 +1,13 @@
+## pip install -r requirements.txt
+在有多个requirement的文件下，可以在requirements.txt的内容里面写以下内容，就可以下载多个配置文件中的库。
+```
+-r requirements/file1.txt
+-r requirements/file2.txt
+
+
+## 在windows中的VS code的虚拟环境设置
+```
+python3 -m venv ./name_environment
+Set-ExecutionPolicy Unrestricted -Scope Process //在运行activa是报错权限时候运行这个命令可以解决
+.\name_environment\Scripts\Activate.ps1
+```
